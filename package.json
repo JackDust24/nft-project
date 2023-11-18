@@ -1,11 +1,20 @@
 {
-  "name": "NFT-Project",
-  "packageManager": "yarn@4.0.2",
+  "name": "template-ethereum-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wk0/template-ethereum-contracts.git",
+  "author": "Will  Kelly <willkelly0@gmail.com>",
+  "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "contracts": "yarn workspace contracts dev",
+    "contracts:compile": "yarn workspace contracts compile",
+    "contracts:void:deploy": "yarn workspace contracts void:deploy",
+    "contracts:test": "yarn workspace contracts test",
+    "contracts:test:ci": "yarn workspace contracts test:ci",
     "web": "yarn workspace web dev",
     "web:build": "yarn workspace web build",
     "web:start": "yarn workspace web start",
@@ -13,5 +22,5 @@
     "web:test": "yarn workspace web test",
     "web:test:ci": "yarn workspace web test:ci",
     "web:cypress": "yarn workspace web cypress"
-}
+  }
 }
