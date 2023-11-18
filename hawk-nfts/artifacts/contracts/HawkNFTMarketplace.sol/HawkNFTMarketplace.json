@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "HawkNFTMarketplace",
+  "sourceName": "contracts/HawkNFTMarketplace.sol",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220818ead467d4a126ba55955824b2328d08c8fc55356c9edbbc4b51a9c0e811a1f64736f6c63430008070033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220818ead467d4a126ba55955824b2328d08c8fc55356c9edbbc4b51a9c0e811a1f64736f6c63430008070033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
